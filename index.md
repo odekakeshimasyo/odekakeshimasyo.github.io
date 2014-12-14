@@ -2,4 +2,4 @@
 layout: default
 ---
 
-index.html
+index.md
