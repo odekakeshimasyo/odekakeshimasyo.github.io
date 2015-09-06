@@ -8,14 +8,16 @@ $((function(){
 		hljs.initHighlighting();
 	}
 	
-	function socialbutton() {
-		setTimeout(function() {
-			/* $('.socialbutton').html($('.socialbutton').get(0).firstChild.nodeValue); */
-		}, 3000);
+	function forceUrl() {
+		if ((window.location.host == 'odekakeshimasyo.io') && (window.location.protocol != "https:"))
+			window.location.protocol = "https";
+		
+		if (window.location.host == 'odekakeshimasyo.github.io')
+			window.location.host = 'odekakeshimasyo.io';
 	}
 	
 	return function() {
 		highlight();
-		socialbutton();
+		forceUrl();
 	}
 })());
