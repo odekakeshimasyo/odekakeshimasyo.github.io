@@ -29,7 +29,7 @@
 $(function(){
     //$("#markdown_content").append(marked($("#markdown_content").val()));
     //alert(marked('aaa *test*'));
-    $('main').append(marked($('div').html().replace(/\r?\n/g, "\n<br />")));
+    $('main').append(marked($('div').html()).replace(/\r?\n/g, "<br />"));
     //alert(marked($('div').html().replace(/\r?\n/g, "<br />")));
 });
 </script>
