@@ -29,7 +29,8 @@
 $(function(){
     //$("#markdown_content").append(marked($("#markdown_content").val()));
     //alert(marked('aaa *test*'));
-    $('main').html(marked($('div').val()));
+    $('main').append(marked($('div').html()));
+    alert(marked($('div').html());
 });
 </script>
 </head>
