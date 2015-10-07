@@ -27,7 +27,7 @@
 <script type="text/javascript" src="/marked.js"></script>
 <script>
 $(function(){
-    $("#markdown_content").get(0).append(marked($("#markdown_content").val()));
+    $("#markdown_content").append(marked($("#markdown_content").val()));
     alert(marked('aaa *test*'));
 });
 </script>
