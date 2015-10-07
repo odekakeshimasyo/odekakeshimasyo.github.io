@@ -28,14 +28,18 @@
 <script>
 $(function(){
     //$("#markdown_content").append(marked($("#markdown_content").val()));
-    alert(marked('aaa *test*'));
+    //alert(marked('aaa *test*'));
+    $('main').html(marked($('div').html()));
 });
 </script>
 </head>
 
     <body>
         <!-- Content -->
-        <div class="container">
+        <main>
+            
+        </main>
+        <div>
             # TEST TEST test
         </div>
     </body>
