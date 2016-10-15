@@ -29,7 +29,8 @@ em {color:red;}
 header * {color:#fff;}
 header *::selection {background-color:#013D6B;}
 header h2 {font-weight:normal;}
-header svg {margin:0 0 -150px 130px;color:#15327C;}
+header svg {margin:0 0 -150px 130px;}
+header svg path {color:#15327C;}
 header nav ul {list-style-type:none;padding-left:0;}
 header nav ul li {font-size:0.8em;text-overflow:ellipsis;overflow-x:hidden;white-space:nowrap;}
 header nav a {color:#50a5e6;}
