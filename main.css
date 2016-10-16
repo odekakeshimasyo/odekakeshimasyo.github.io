@@ -6,7 +6,7 @@ body:after, section:after, header:after,  menu:after, main:after, article:after,
 
 /* common */
 body, section, header, menu, main, article, aside, summary, nav, footer .c {display:block;margin:0;}
-* {box-sizing:border-box;font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN',Meiryo, sans-serif;}
+* {box-sizing:border-box;font-family:'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3', Meiryo, sans-serif;}
 svg {fill:currentColor;}
 
 /* site-layout #3d4f5d, #a5006a */
