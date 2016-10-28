@@ -16,7 +16,7 @@ header {}
 main, section, aside {}
 
 /* site-style */
-body {color:#222;border-color:#042A4F;}/* background-color:#fe0192, #c5006a, #131631, #177C4A*/
+body {color:#222;border-color:;}/* background-color:#fe0192, #c5006a, #131631, #177C4A*/
 *::selection {background-color:#99C1DA;}
 a {text-decoration:none;color:blue;}
 header a:hover {color:#fff;}
