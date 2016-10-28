@@ -11,9 +11,9 @@ svg {fill:currentColor;}
 
 /* site-layout #3d4f5d, #a5006a */
 html {height:100%;}
-body {border-style:solid;border-width:0 0 0 20em;min-height:100%;width:100%;overflow-x:hidden;}
-header {width:20em;padding:0 2em 2em;margin-left:-20em;float:left;}
-main, section, aside {padding:0 5% 3em 11%;width:100%;word-break:break-all;float:left;}
+body {min-height:100%;width:100%;padding:0 5% 3em;}
+header {}
+main, section, aside {}
 
 /* site-style */
 body {color:#222;border-color:#042A4F;}/* background-color:#fe0192, #c5006a, #131631, #177C4A*/
@@ -41,20 +41,6 @@ th {background-color:#F2F2F2;}
 th, td {border-bottom:1px solid #bbb;padding:8px 10px;}
 
 .ad > div {width:50%;float:left;}
-.socialbutton a {padding:3px 10px;text-align:center;text-decoration:none;color:#fff;font-size:70%;float:left;display:block;margin:0 1em 0 0;}
-.socialbutton a svg {vertical-align:middle;margin:-2px 5px 0 0;}
-.socialbutton a.twitter {background:#00acee;}
-.socialbutton a.twitter:hover {background:#0092ca;}
-.socialbutton a.facebook {background:#3b5998;}
-.socialbutton a.facebook:hover {background:#2c4373;}
-.socialbutton a.googleplus {background:#db4a39;}
-.socialbutton a.googleplus:hover {background:#ad3a2d;}
-.socialbutton a.hatebu {background:#5d8ac1;}
-.socialbutton a.hatebu:hover {background:#43638b;}
-.socialbutton a.pocket {background:#f03e51;}
-.socialbutton a.pocket:hover {background:#c0392b;}
-.socialbutton a.feedly {background:#87c040;}
-.socialbutton a.feedly:hover {background:#74a436;}
 
 /* responsive */
 @media (max-width:800px) {
